@@ -1,5 +1,5 @@
-def number_generator(n):
+def num_generator(n):
     for i in range(n):
         yield i
-    for number in number_generator(5):
-        print(number) 
+    for num in num_generator(5):
+        print(num) 
